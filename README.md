@@ -23,4 +23,6 @@
 	* Também pode criar um bibtex para sites, artigos normais, etc. Há vários exemplos online, se precisarem de ajuda digam. 
 
 
-# Dicas 
+# Dicas para usar:
+* Apagar todos os \lipsum em introduction.tex , resumo.tex e agradecimentos.tex
+
