@@ -1,10 +1,6 @@
 
-PRE-INSTALL
-sudo apt-get install texlive-science
 
-
-
-# DICAS:
+# Dicas do source:
 * Só preicsam de mexer nos ficheiros .tex e .bib:
 	* main.tex , precisam de alterar as variáveis de acordo com o vosso caso.
 	* chapters/*/*.tex é onde vão escrever o vosso relatório. 
@@ -13,10 +9,10 @@ sudo apt-get install texlive-science
 	* Raiz onde têm todos os ficheiros - inclusive o main.tex 
 
 	* Em chapters têm os documentos que precisam editar:
-			acks - agradecimentos
-			abstract - resumo do trabalho 
-			introduction - introdução
-			quando precisarem de criar novos cappitulos, copiem a introduction para outra pasta que precisem, por exemplo: related work, conclusions, etc. Depois devem alterar o nome do ficheiro .tex aí dentro, o texto no início desse ficheiro (onde está o nome do capitulo \chapter{NOME} e adicionar uma linha:  \include{chapters/introduction/NOVA PASTA} por baixo de \include{chapters/introduction/introduction} no main.tex
+		*	acks - agradecimentos
+		*	abstract - resumo do trabalho 
+		*	introduction - introdução
+		*	quando precisarem de criar novos cappitulos, copiem a introduction para outra pasta que precisem, por exemplo: related work, conclusions, etc. Depois devem alterar o nome do ficheiro .tex aí dentro, o texto no início desse ficheiro (onde está o nome do capitulo \chapter{NOME} e adicionar uma linha:  \include{chapters/introduction/NOVA PASTA} por baixo de \include{chapters/introduction/introduction} no main.tex
 
 	* Em images devem guardar todas as imagens que precisam no relatório. Podem organizar em sub-pastas desde que depois metam isso no path do comando de include (ver exemplo na introduction.tex).
 
@@ -27,4 +23,4 @@ sudo apt-get install texlive-science
 	* Também pode criar um bibtex para sites, artigos normais, etc. Há vários exemplos online, se precisarem de ajuda digam. 
 
 
-
+# Dicas 
