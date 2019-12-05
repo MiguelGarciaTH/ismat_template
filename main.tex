@@ -201,17 +201,12 @@ e pelo Prof. \CoOrientador \\
 %\cleardoublepage
 
 \include{chapters/copyright/copyright}
-
 \include{chapters/acks/agradecimentos}
-
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_pt}
-%\cleardoublepage
-
+\cleardoublepage
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_en}
-
-
 
 %Lista de capitulos
 \setcounter{secnumdepth}{3}
@@ -222,27 +217,36 @@ e pelo Prof. \CoOrientador \\
 \thispagestyle{empty}
 \mbox{}
 \newpage
-
+\cleardoublepage
 
 %Lista de figuras
 \listoffigures
-\addcontentsline {toc} {chapter} {List of Figures}
+%\addcontentsline {toc} {chapter} {List of Figures}
 \newpage
-%\thispagestyle{empty}
-%\mbox{}
-%\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+\cleardoublepage
 
 %Lista de tabelas
 \listoftables
-\addcontentsline {toc} {chapter} {List of Tables}
+%\addcontentsline {toc} {chapter} {List of Tables}
 \newpage
-%\thispagestyle{empty} \mbox{}
+\thispagestyle{empty} 
+%\mbox{}
 %\newpage
-\include{acronimos}
-\renewcommand{\glossaryname}{Acronyms}
-\printglossaries
-\addcontentsline {toc} {chapter} {Acronyms}
+%\cleardoublepage
 
+%Lista de acronimos
+\renewcommand{\glossaryname}{Acronyms}
+\include{acronimos}
+\printglossaries
+%\addcontentsline {toc} {chapter} {Acronyms}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+\cleardoublepage
 %
 % Para actualizar o glossario, e' preciso correr o script ./fazindice
 % e voltar a gerar o PDF
