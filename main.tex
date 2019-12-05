@@ -162,6 +162,11 @@ e pelo Prof. \CoOrientador \\
 
 %%% Segunda capa
 \begin{center}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+\cleardoublepage
 
 \Cabecalho
 
@@ -190,6 +195,12 @@ e pelo Prof. \CoOrientador \\
 \vspace{-1cm}
 \Ano
 \end{center}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+\cleardoublepage
+
 
 % Fim da capa
 % ----------------------------------------------------------------------
@@ -198,15 +209,25 @@ e pelo Prof. \CoOrientador \\
 \setcounter{page}{1}			% set page counter
 \pagestyle{empty}
 
-%\cleardoublepage
 
+\pagestyle{plain}				% display just page numbers
 \include{chapters/copyright/copyright}
+\thispagestyle{empty}
+
+\pagestyle{plain}				% display just page numbers
 \include{chapters/acks/agradecimentos}
+
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_pt}
-\cleardoublepage
+
+%\cleardoublepage
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_en}
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+%\newpage
+\cleardoublepage
 
 %Lista de capitulos
 \setcounter{secnumdepth}{3}
