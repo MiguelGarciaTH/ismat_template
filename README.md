@@ -3,7 +3,8 @@
 # Dicas do source:
 * Só preicsam de mexer nos ficheiros .tex e .bib:
 	* main.tex , precisam de alterar as variáveis de acordo com o vosso caso.
-	* chapters/*/*.tex é onde vão escrever o vosso relatório. 
+	* chapters/\*/\*.tex é onde vão escrever o vosso relatório. 
+	* acronimos.tex onde vão escrever os acrónimos utilizados no documento
 
 * Directorias: 
 	* Raiz onde têm todos os ficheiros - inclusive o main.tex 
