@@ -4,7 +4,7 @@
     openright,              % doublepage cleaning ends up right side
     parskip=full,           % spacing value / method for paragraphs
     chapterprefix=true,     % prefix for chapter marks
-    11pt,                   % font size
+    12pt,                   % font size
     headings=normal,        % size of headings
     bibliography=totoc,     % include bib in toc
     listof=totoc,           % include listof entries in toc
@@ -49,8 +49,10 @@
 \usepackage{flushend}
 \usepackage{breakurl}
 \usepackage{lipsum}  
+\usepackage{longtable}
+\usepackage[acronym]{glossaries}
 
-\makeindex
+%\makeindex
 
 
 \theoremstyle{definition}
@@ -80,12 +82,14 @@
 \thispagestyle{plain}
 }
 
-%
-% ALTERAR AQUI AS INFORMACOES RELATIVAS AO PROJECTO
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 				ALTERAR AQUI AS INFORMACOES RELATIVAS AO PROJECTO							%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\TITULO}{TITULO DO TRABALHO}
 \newcommand{\Autor}{NOME DO ALUNO}
 \newcommand{\AutorNumAluno}{NUMERO DO ALUNO}
+\newcommand{\MIC}{Relatório de Metodologias de Investigação Científica}
+\newcommand{\PFC}{Relatório de Trabalho Final de Curso}
 
 %Orientador e CoOrientador *sem* titulos (e.g. Prof. Doutor)
 \newcommand{\Orientador}{NOME ORIENTADOR}
@@ -98,12 +102,12 @@
 \newcommand{\Ano}{\Large{2020}}
 
 % Comentar/descomentar conforme conveniente
-\newcommand{\CADEIRA}{Trabalho Final de Curso}
+\newcommand{\CADEIRA}{\MIC}
 
 % Comentar/descomentar conforme conveniente
 %\newcommand{\IdiomaTese}{\selectlanguage{portuguese}}
 \newcommand{\IdiomaTese}{\selectlanguage{english}}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\Cabecalho}{
 \vspace{-0.5cm}\normalfont\normalfont
@@ -118,16 +122,13 @@
 \author{\Autor}
 %\date{\today}
 
-\usepackage{glossaries}
 \makeglossaries
 
 \begin{document}
 \selectlanguage{english}
 \pagestyle{empty}
 
-% Primeira capa
-% 
-%
+%%% Primeira capa
 \begin{center}
 
 \Cabecalho
@@ -159,6 +160,37 @@ e pelo Prof. \CoOrientador \\
 \end{center}
 
 
+%%% Segunda capa
+\begin{center}
+
+\Cabecalho
+
+\vspace{2.0cm}
+\vfill
+\IdiomaTese
+\Large{\textbf{\TITULO}}\\
+\vspace{1cm}
+\vfill
+
+\large{\textbf{\CADEIRA}}\\
+\vspace{1.0cm}
+\vfill
+\Large{\textbf{\Autor}}\\
+\vspace{1,8 cm}
+\vfill
+\large{Trabalho orientado por:}\\
+\large{Prof. \Orientador} \\
+% DESCOMENTAR a linha relevante (se alguma), removendo o % no inicio
+e pelo Prof. \CoOrientador \\
+\vspace{1 cm}
+\vfill
+
+\vspace{0.5cm}
+\vfill
+\vspace{-1cm}
+\Ano
+\end{center}
+
 % Fim da capa
 % ----------------------------------------------------------------------
 
@@ -168,11 +200,16 @@ e pelo Prof. \CoOrientador \\
 
 %\cleardoublepage
 
+\include{chapters/copyright/copyright}
+
 \include{chapters/acks/agradecimentos}
 
 \pagestyle{plain}				% display just page numbers
-\include{chapters/abstract/resumo}
+\include{chapters/abstract/resumo_pt}
 %\cleardoublepage
+
+\pagestyle{plain}				% display just page numbers
+\include{chapters/abstract/resumo_en}
 
 
 
@@ -189,7 +226,7 @@ e pelo Prof. \CoOrientador \\
 
 %Lista de figuras
 \listoffigures
-%\addcontentsline {toc} {chapter} {List of Figures}
+\addcontentsline {toc} {chapter} {List of Figures}
 \newpage
 %\thispagestyle{empty}
 %\mbox{}
@@ -197,10 +234,14 @@ e pelo Prof. \CoOrientador \\
 
 %Lista de tabelas
 \listoftables
-%\addcontentsline {toc} {chapter} {List of Tables}
+\addcontentsline {toc} {chapter} {List of Tables}
 \newpage
 %\thispagestyle{empty} \mbox{}
 %\newpage
+\include{acronimos}
+\renewcommand{\glossaryname}{Acronyms}
+\printglossaries
+\addcontentsline {toc} {chapter} {Acronyms}
 
 %
 % Para actualizar o glossario, e' preciso correr o script ./fazindice
@@ -240,7 +281,7 @@ e pelo Prof. \CoOrientador \\
 % Glossario
 
 \LIMPA
-\bibliographystyle{abbrv}
+\bibliographystyle{IEEEtran}
 \bibliography{chapters/references/references}
 %\addcontentsline {toc} {chapter} {Bibliography}
 
