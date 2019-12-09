@@ -9,8 +9,5 @@
 \babel@toc {english}{}
 \babel@toc {portuguese}{}
 \babel@toc {english}{}
-\contentsline {chapter}{List of Figures}{xv}{section*.8}% 
-\contentsline {chapter}{List of Tables}{xvi}{section*.8}% 
-\contentsline {chapter}{Acronyms}{xix}{section*.11}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.15}% 
