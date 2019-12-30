@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.22)  5 DEC 2019 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.22)  30 DEC 2019 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -129,7 +129,18 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrreprt Info: Redefining `\numberline' on input line 6799.
 \bibindent=\dimen102
 )
-(./newstyle.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (./newstyle.sty
 
 LaTeX Warning: You have requested package `newstyle',
                but the package provides `cleanthesis'.
@@ -141,8 +152,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks15
-\XKV@tempa@toks=\toks16
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
 )
 \XKV@depth=\count90
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -218,7 +229,7 @@ Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
-\MT@toks=\toks17
+\MT@toks=\toks19
 \MT@count=\count91
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen103
@@ -265,7 +276,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen106
 \ar@mcellbox=\box29
 \extrarowheight=\dimen107
-\NC@list=\toks18
+\NC@list=\toks20
 \extratabsurround=\skip59
 \backup@length=\skip60
 \ar@cellbox=\box30
@@ -276,7 +287,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@target=\dimen111
 \TX@delta=\dimen112
 \TX@cols=\count93
-\TX@ftn=\toks19
+\TX@ftn=\toks21
 )
 
 Class scrreprt Warning: Usage of package `fancyhdr' together
@@ -309,7 +320,7 @@ s
 Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip70
 \enit@outerparindent=\dimen113
-\enit@toks=\toks20
+\enit@toks=\toks22
 \enit@inbox=\box31
 \enit@count@id=\count94
 \enitdp@description=\count95
@@ -640,7 +651,7 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layoutheight=\dimen130
 \Gm@layouthoffset=\dimen131
 \Gm@layoutvoffset=\dimen132
-\Gm@dimlist=\toks21
+\Gm@dimlist=\toks23
 )
 
 Class scrreprt Warning: Usage of package `titlesec' together
@@ -660,7 +671,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip73
 \ttl@plus=\dimen133
 \ttl@minus=\dimen134
-\ttl@toksa=\toks22
+\ttl@toksa=\toks24
 \titlewidth=\dimen135
 \titlewidthlast=\dimen136
 \titlewidthfirst=\dimen137
@@ -751,11 +762,6 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip106
 \cfttabnumwidth=\skip107
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks23
-\inpenc@posthook=\toks24
-)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip108
@@ -1585,7 +1591,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \c@LT@chunks=\count363
 \LT@p@ftn=\toks52
 )
-Class scrreprt Info: longtable captions redefined on input line 53.
+Class scrreprt Info: longtable captions redefined on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2019/01/06 v4.42 (NLCT)
@@ -1738,11 +1744,11 @@ Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 125.
+Package glossaries Info: Writing glossary file main.glo on input line 127.
 \glo@acronym@file=\write6
 \openout6 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 125.
+Package glossaries Info: Writing glossary file main.acn on input line 127.
 
 (./main.aux (./chapters/copyright/copyright.aux)
 (./chapters/acks/agradecimentos.aux) (./chapters/abstract/resumo_pt.aux)
@@ -1750,29 +1756,29 @@ Package glossaries Info: Writing glossary file main.acn on input line 125.
 (./chapters/introduction/introduction.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 127.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 127.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 129.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1807,7 +1813,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 127.
+LaTeX Info: Redefining \microtypecontext on input line 129.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1822,10 +1828,10 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box113
-Package hyperref Info: Link coloring OFF on input line 127.
-LaTeX Info: Redefining \ref on input line 127.
-LaTeX Info: Redefining \pageref on input line 127.
-LaTeX Info: Redefining \nameref on input line 127.
+Package hyperref Info: Link coloring OFF on input line 129.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \nameref on input line 129.
  (./main.out)
 (./main.out)
 \@outlinefile=\write7
@@ -1837,7 +1843,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message with `\usepackage{bookmark}'
-(scrreprt)           before \begin{document} on input line 127.
+(scrreprt)           before \begin{document} on input line 129.
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
@@ -1900,38 +1906,27 @@ ABD: EveryShipout initializing macros (./main.glsdefs)
 <pic/logotipo_ISMAT.pdf, id=7, 229.85875pt x 74.2775pt>
 File: pic/logotipo_ISMAT.pdf Graphic file (type pdf)
 <use pic/logotipo_ISMAT.pdf>
-Package pdftex.def Info: pic/logotipo_ISMAT.pdf  used on input line 134.
-(pdftex.def)             Requested size: 206.87094pt x 66.84912pt.
-File: pic/logotipo_ISMAT.pdf Graphic file (type pdf)
-<use pic/logotipo_ISMAT.pdf>
-Package pdftex.def Info: pic/logotipo_ISMAT.pdf  used on input line 166.
+Package pdftex.def Info: pic/logotipo_ISMAT.pdf  used on input line 136.
 (pdftex.def)             Requested size: 206.87094pt x 66.84912pt.
  [1
 
 \openout4 = `main.ist'.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pic/logotipo_ISMAT.pdf>]
- [1]
+ [2]
+File: pic/logotipo_ISMAT.pdf Graphic file (type pdf)
+<use pic/logotipo_ISMAT.pdf>
+Package pdftex.def Info: pic/logotipo_ISMAT.pdf  used on input line 173.
+(pdftex.def)             Requested size: 206.87094pt x 66.84912pt.
+ [3
 
-Package marginnote Warning: Consecutive odd pages found.
-(marginnote)                Note, it is not recommended to use consecutive
-(marginnote)                odd pages in a double-ended document.
-(marginnote)                The pages of your document should always
-(marginnote)                be a sequence: odd-even-odd-even-...
-(marginnote)                Maybe you've forgotten a \cleardoubleoddpage before
 
-(marginnote)                changing the page numbering on page i.
-
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 203.
+] [4]
 \openout2 = `chapters/copyright/copyright.aux'.
 
-(./chapters/copyright/copyright.tex [2
 
-
-
-]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 10.
+(./chapters/copyright/copyright.tex
+LaTeX Font Info:    Try loading font information for T1+phv on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1940,8 +1935,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 19
-.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 9.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1950,20 +1945,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 19
-.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 9.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 19
-.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 9.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 19
-.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 9.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1974,19 +1969,19 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 19.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 )
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 203.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 217.
 
 (/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
@@ -1995,21 +1990,36 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [3]
+ [1
+
+
+
+
+
+]
 \openout2 = `chapters/acks/agradecimentos.aux'.
 
 
-(./chapters/acks/agradecimentos.tex [4
+(./chapters/acks/agradecimentos.tex [2
 
 
-] [5
+]) [3
 
 
-] [6]) [7]
+] [4]
 \openout2 = `chapters/abstract/resumo_pt.aux'.
 
 
-(./chapters/abstract/resumo_pt.tex [8
+(./chapters/abstract/resumo_pt.tex) [5
+
+
+
+
+]
+\openout2 = `chapters/abstract/resumo_en.aux'.
+
+ (./chapters/abstract/resumo_en.tex
+[6
 
 
 
@@ -2017,21 +2027,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 ]
 Underfull \vbox (badness 6493) has occurred while \output is active []
 
- [9])
-[10]
-\openout2 = `chapters/abstract/resumo_en.aux'.
-
- (./chapters/abstract/resumo_en.tex
-Underfull \vbox (badness 6493) has occurred while \output is active []
-
- [11
-
-
-
-
-])
-[12] (./main.toc
-LaTeX Font Info:    Try loading font information for T1+bch on input line 12.
+ [7])
+[8] (./main.toc
+LaTeX Font Info:    Try loading font information for T1+bch on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
@@ -2042,38 +2040,40 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [13
+ [9
 
-] [14]
+] [10]
 (./main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
- [15] (./main.lot)
+ [11
+
+
+] [12] (./main.lot)
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- [16]
+ [13
+
+
+]
 \openout2 = `acronimos.aux'.
 
  (./acronimos.tex
 \@gls@deffile=\write11
 \openout11 = `main.glsdefs'.
 
-) (./main.gls) (./main.acr
-[17
+) (./main.gls)
+(./main.acr [14
 
 
-] [18
+]) [15
 
 
-]) [19
 
 
-] [20
-
-
-]
+] [16]
 \openout2 = `chapters/introduction/introduction.aux'.
 
  (./chapters/introduction/introduction.tex
@@ -2093,65 +2093,82 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-<images/figure_example.pdf, id=133, 568.1225pt x 279.0425pt>
+<images/figure_example.pdf, id=126, 568.1225pt x 279.0425pt>
 File: images/figure_example.pdf Graphic file (type pdf)
 <use images/figure_example.pdf>
-Package pdftex.def Info: images/figure_example.pdf  used on input line 12.
+Package pdftex.def Info: images/figure_example.pdf  used on input line 13.
 (pdftex.def)             Requested size: 431.01775pt x 211.70831pt.
 
-Underfull \vbox (badness 1033) has occurred while \output is active []
+Overfull \hbox (12.0pt too wide) in paragraph at lines 30--44
+$[]$ 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 \end{figure}
-                  [1
+l.65 \end{table}
+                 [1
 
 
 
-]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 29--43
-$[]$ 
- []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./images/figure_example.pdf>]) [3] (./main.bbl [4
+
+ <./images/figure_example.pdf>])pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.284 \include{chapters/introduction/introduction}
+                                                   [2] (./main.bblpdfTeX warnin
+g (ext4): destination with the same identifier (name{page.3}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \begin{thebibliography}{1}
+                               [3
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \begin{thebibliography}{1}
+                               [4
+
 
 ]
 chapter without number
-) AED: lastpage setting LastPage [5
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+) AED: lastpage setting LastPage [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./main.aux
 (./chapters/copyright/copyright.aux) (./chapters/acks/agradecimentos.aux)
 (./chapters/abstract/resumo_pt.aux) (./chapters/abstract/resumo_en.aux)
 (./acronimos.aux) (./chapters/introduction/introduction.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
- 43853 strings out of 494468
- 808665 string characters out of 6175090
- 1304997 words of memory out of 5000000
- 46620 multiletter control sequences out of 15000+600000
+ 43850 strings out of 494468
+ 808844 string characters out of 6175090
+ 1302057 words of memory out of 5000000
+ 46617 multiletter control sequences out of 15000+600000
  627559 words of font info for 175 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 65i,19n,106p,9083b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,19n,106p,9083b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/bi
 tstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -2164,10 +2181,10 @@ helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (26 pages, 275393 bytes).
+Output written on main.pdf (25 pages, 271272 bytes).
 PDF statistics:
- 668 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 58 named destinations out of 1000 (max. 500000)
- 47167 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 648 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 47143 words of extra memory for PDF output out of 51595 (max. 10000000)
 

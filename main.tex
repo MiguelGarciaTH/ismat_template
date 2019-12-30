@@ -13,9 +13,11 @@
     draft=false,            % value for draft version
 ]{scrreprt}
 
+%\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{newstyle}
 \usepackage{tabularx}
-\usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsfonts,amssymb,amsthm,url}
 \def\UrlBreaks{\do\/\do-}
 \usepackage[portuguese,english]{babel}
@@ -105,8 +107,8 @@
 \newcommand{\CADEIRA}{\MIC}
 
 % Comentar/descomentar conforme conveniente
-%\newcommand{\IdiomaTese}{\selectlanguage{portuguese}}
-\newcommand{\IdiomaTese}{\selectlanguage{english}}
+\newcommand{\IdiomaTese}{\selectlanguage{portuguese}}
+%\newcommand{\IdiomaTese}{\selectlanguage{english}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\Cabecalho}{
@@ -125,7 +127,7 @@
 \makeglossaries
 
 \begin{document}
-\selectlanguage{english}
+\selectlanguage{portuguese}
 \pagestyle{empty}
 
 %%% Primeira capa
@@ -209,6 +211,7 @@ e pelo Prof. \CoOrientador \\
 \setcounter{page}{1}			% set page counter
 \pagestyle{empty}
 
+\selectlanguage{portuguese}
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/copyright/copyright}
@@ -220,14 +223,9 @@ e pelo Prof. \CoOrientador \\
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_pt}
 
-%\cleardoublepage
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_en}
-%\newpage
-%\thispagestyle{empty}
-%\mbox{}
-%\newpage
-\cleardoublepage
+%\cleardoublepage
 
 %Lista de capitulos
 \setcounter{secnumdepth}{3}
@@ -240,7 +238,7 @@ e pelo Prof. \CoOrientador \\
 \newpage
 \cleardoublepage
 
-%Lista de figuras
+%%Lista de figuras
 \listoffigures
 %\addcontentsline {toc} {chapter} {List of Figures}
 \newpage
@@ -253,31 +251,20 @@ e pelo Prof. \CoOrientador \\
 \listoftables
 %\addcontentsline {toc} {chapter} {List of Tables}
 \newpage
-\thispagestyle{empty} 
+%\thispagestyle{empty} 
 %\mbox{}
 %\newpage
 %\cleardoublepage
 
 %Lista de acronimos
-\renewcommand{\glossaryname}{Acronyms}
+\renewcommand{\glossaryname}{Acrónimos}
 \include{acronimos}
 \printglossaries
-%\addcontentsline {toc} {chapter} {Acronyms}
 \newpage
 \thispagestyle{empty}
 \mbox{}
 \newpage
 \cleardoublepage
-%
-% Para actualizar o glossario, e' preciso correr o script ./fazindice
-% e voltar a gerar o PDF
-%
-%\LIMPA
-%\renewcommand{\glossaryname}{Acronyms}
-%\include{acronimos}
-%\printglossaries
-%\addcontentsline {toc} {chapter} {Acronyms}
-% Bibliografia
 
 % --------------------------
 % Body matter
@@ -288,17 +275,15 @@ e pelo Prof. \CoOrientador \\
 \pagestyle{fancy}
 \cleardoublepage
 
-%\setcounter{page}{1}
-%\pagenumbering{arabic}
-
+\selectlanguage{portuguese}
 \pagenumbering{arabic}			% arabic page numbering
 \setcounter{page}{1}			% set page counter
 \pagestyle{maincontentstyle} 		% fancy header and footer
 
-
-
+%%% ADICIONAR CAPITULOS
 \include{chapters/introduction/introduction}
-
+%%% \include{chapters/introduction/CAPITULO}
+%%% \include{chapters/introduction/CAPITULO}
 
 % Fim do conteudo
 % ----------------------------------------------------------------------
