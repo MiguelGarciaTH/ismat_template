@@ -77,12 +77,6 @@
 \thispagestyle{empty}
 }
 
-% Igual, mas insere pagina com numero impresso (normalmente nao se usa)
-\newcommand{\LIMPAC}{
-\newpage
-\mbox{}
-\thispagestyle{plain}
-}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 				ALTERAR AQUI AS INFORMACOES RELATIVAS AO PROJECTO							%
@@ -215,13 +209,15 @@ e pelo Prof. \CoOrientador \\
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/copyright/copyright}
-\thispagestyle{empty}
+\LIMPA
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/acks/agradecimentos}
+%\LIMPA
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_pt}
+\LIMPA
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_en}
@@ -236,7 +232,7 @@ e pelo Prof. \CoOrientador \\
 \thispagestyle{empty}
 \mbox{}
 \newpage
-\cleardoublepage
+%\cleardoublepage
 
 %%Lista de figuras
 \listoffigures
@@ -245,26 +241,35 @@ e pelo Prof. \CoOrientador \\
 \thispagestyle{empty}
 \mbox{}
 \newpage
-\cleardoublepage
+%\cleardoublepage
 
 %Lista de tabelas
 \listoftables
 %\addcontentsline {toc} {chapter} {List of Tables}
 \newpage
-%\thispagestyle{empty} 
-%\mbox{}
-%\newpage
-%\cleardoublepage
-
-%Lista de acronimos
-\renewcommand{\glossaryname}{Acrónimos}
-\include{acronimos}
-\printglossaries
-\newpage
-\thispagestyle{empty}
+\thispagestyle{empty} 
 \mbox{}
 \newpage
 \cleardoublepage
+
+
+%Lista de acronimos
+%\LIMPA
+\renewcommand{\glossaryname}{Acrónimos}
+
+\include{acronimos}
+\clearpage
+ 
+\printglossary[type=\acronymtype]
+ 
+\printglossary
+%\printnoidxglossary[type=acronym]
+%\printglossaries
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+%\newpage
+%\cleardoublepage
 
 % --------------------------
 % Body matter
@@ -290,7 +295,7 @@ e pelo Prof. \CoOrientador \\
 
 % Glossario
 
-\LIMPA
+%\LIMPA
 \bibliographystyle{IEEEtran}
 \bibliography{chapters/references/references}
 %\addcontentsline {toc} {chapter} {Bibliography}

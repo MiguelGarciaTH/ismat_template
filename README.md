@@ -1,6 +1,8 @@
 
 
 # Dicas do source:
+* *NOTA* Sempre que o novo capitulo (normal ou dos iniciais: agradecimentos, lista de ... ) não começar numa página impar é preciso meter o comando \LIMPA antes de começar essa secção.
+
 * Só preicsam de mexer nos ficheiros .tex e .bib:
 	* main.tex , precisam de alterar as variáveis de acordo com o vosso caso.
 	* chapters/\*/\*.tex é onde vão escrever o vosso relatório. 
