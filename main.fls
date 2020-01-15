@@ -380,6 +380,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+INPUT student_project_definitions.tex
+INPUT student_project_definitions.tex
 OUTPUT main.glo
 OUTPUT main.acn
 INPUT main.aux
@@ -535,12 +537,11 @@ OUTPUT acronimos.aux
 INPUT acronimos.tex
 INPUT acronimos.tex
 OUTPUT main.glsdefs
-INPUT main.gls
-INPUT main.gls
-INPUT main.gls
 INPUT main.acr
 INPUT main.acr
 INPUT main.acr
+INPUT structure.tex
+INPUT structure.tex
 OUTPUT chapters/introduction/introduction.aux
 INPUT chapters/introduction/introduction.tex
 INPUT chapters/introduction/introduction.tex

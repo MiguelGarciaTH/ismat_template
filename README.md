@@ -4,7 +4,9 @@
 * *NOTA* Sempre que o novo capitulo (normal ou dos iniciais: agradecimentos, lista de ... ) não começar numa página impar é preciso meter o comando \LIMPA antes de começar essa secção.
 
 * Só preicsam de mexer nos ficheiros .tex e .bib:
-	* main.tex , precisam de alterar as variáveis de acordo com o vosso caso.
+	* student_project_definitions.tex: contem as variáveis do aluno/projecto (ex: titulo, nomes, etc).
+	* structure.tex: contem a estrutura do conteudo do projecto, isto é, os captiulos.
+	* main.tex: só precisam de alterar se quiserem remover alguma das secções iniciais facultativa (i.e., agradecimentos) ou adicionar o comando \LIMPA caso estas secções não estejam a começar em página impar.
 	* chapters/\*/\*.tex é onde vão escrever o vosso relatório. 
 	* acronimos.tex onde vão escrever os acrónimos utilizados no documento
 

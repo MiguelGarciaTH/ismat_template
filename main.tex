@@ -78,33 +78,6 @@
 }
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 				ALTERAR AQUI AS INFORMACOES RELATIVAS AO PROJECTO							%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\TITULO}{TITULO DO TRABALHO}
-\newcommand{\Autor}{NOME DO ALUNO}
-\newcommand{\AutorNumAluno}{NUMERO DO ALUNO}
-\newcommand{\MIC}{Relatório de Metodologias de Investigação Científica}
-\newcommand{\PFC}{Relatório de Trabalho Final de Curso}
-
-%Orientador e CoOrientador *sem* titulos (e.g. Prof. Doutor)
-\newcommand{\Orientador}{NOME ORIENTADOR}
-\newcommand{\CoOrientador}{NOME CO-ORIENTADOR} %se nao se aplicar, nao importa o que aqui esteja
-
-%Se aplicavel, o supervisor pode ter um titulo (Dr., Eng.) colocado aqui
-\newcommand{\SupervisorInstituicao}{Nome Completo do Supervisor}  %se nao se aplicar, nao importa o que aqui esteja
-
-\newcommand{\AnoLectivo}{2019/2020}
-\newcommand{\Ano}{\Large{2020}}
-
-% Comentar/descomentar conforme conveniente
-\newcommand{\CADEIRA}{\MIC}
-
-% Comentar/descomentar conforme conveniente
-\newcommand{\IdiomaTese}{\selectlanguage{portuguese}}
-%\newcommand{\IdiomaTese}{\selectlanguage{english}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \newcommand{\Cabecalho}{
 \vspace{-0.5cm}\normalfont\normalfont
 \vfill
@@ -112,6 +85,15 @@
 \vspace{1.5cm}
 \includegraphics[scale=.9]{pic/logotipo_ISMAT.pdf}\\
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 						INFORMACOES RELATIVAS AO PROJECTO/ALUNO										%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{student_project_definitions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 \title{\TITULO}
@@ -209,11 +191,11 @@ e pelo Prof. \CoOrientador \\
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/copyright/copyright}
-\LIMPA
+%\LIMPA
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/acks/agradecimentos}
-%\LIMPA
+\LIMPA
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_pt}
@@ -221,7 +203,7 @@ e pelo Prof. \CoOrientador \\
 
 \pagestyle{plain}				% display just page numbers
 \include{chapters/abstract/resumo_en}
-%\cleardoublepage
+\LIMPA
 
 %Lista de capitulos
 \setcounter{secnumdepth}{3}
@@ -256,20 +238,10 @@ e pelo Prof. \CoOrientador \\
 %Lista de acronimos
 %\LIMPA
 \renewcommand{\glossaryname}{Acrónimos}
-
 \include{acronimos}
 \clearpage
- 
 \printglossary[type=\acronymtype]
  
-\printglossary
-%\printnoidxglossary[type=acronym]
-%\printglossaries
-%\newpage
-%\thispagestyle{empty}
-%\mbox{}
-%\newpage
-%\cleardoublepage
 
 % --------------------------
 % Body matter
@@ -286,9 +258,7 @@ e pelo Prof. \CoOrientador \\
 \pagestyle{maincontentstyle} 		% fancy header and footer
 
 %%% ADICIONAR CAPITULOS
-\include{chapters/introduction/introduction}
-%%% \include{chapters/introduction/CAPITULO}
-%%% \include{chapters/introduction/CAPITULO}
+\input{structure}
 
 % Fim do conteudo
 % ----------------------------------------------------------------------
